@@ -1,0 +1,231 @@
+PODS:
+  - AWSAPIGateway (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSCognito (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSCognitoAuth (2.6.13):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+  - AWSCognitoIdentityProvider (2.6.13):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.13)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.13)
+  - AWSS3 (2.6.13):
+    - AWSCore (= 2.6.13)
+  - BMPlayer (1.0.1):
+    - BMPlayer/Full (= 1.0.1)
+  - BMPlayer/Core (1.0.1)
+  - BMPlayer/Full (1.0.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.0.0)
+    - SnapKit (~> 4.0.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CameraManager (4.0.1)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Fabric (1.7.6)
+  - FacebookCore (0.3.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.27)
+  - FacebookLogin (0.3.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3)
+    - FBSDKCoreKit (~> 4.27)
+    - FBSDKLoginKit (~> 4.27)
+  - FBSDKCoreKit (4.31.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.31.1):
+    - FBSDKCoreKit
+  - FDWaveformView (3.0.1)
+  - Firebase/Core (4.11.0):
+    - FirebaseAnalytics (= 4.1.0)
+    - FirebaseCore (= 4.0.18)
+  - FirebaseAnalytics (4.1.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.18):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.3)":
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NVActivityIndicatorView (4.0.1):
+    - NVActivityIndicatorView/Presenter (= 4.0.1)
+  - NVActivityIndicatorView/Presenter (4.0.1)
+  - OCWaveView (0.1.1)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - Player (0.8.4)
+  - PryntTrimmerView (2.0.0)
+  - Realm (3.3.0):
+    - Realm/Headers (= 3.3.0)
+  - Realm/Headers (3.3.0)
+  - RealmSwift (3.3.0):
+    - Realm (= 3.3.0)
+  - Reveal-SDK (13)
+  - SnapKit (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.25.0)
+  - SwiftSiriWaveformView (2.4.0)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - "UITextView+Placeholder (1.2.0)"
+  - WSTagsField (2.1.2)
+
+DEPENDENCIES:
+  - AWSAPIGateway
+  - AWSCognito
+  - AWSCognitoAuth
+  - AWSCognitoIdentityProvider
+  - AWSCore
+  - AWSS3
+  - BMPlayer (~> 1.0.0)
+  - CameraManager (from `https://github.com/savytskyi/CameraManager`)
+  - Crashlytics (~> 3.10.1)
+  - Fabric (~> 1.7.6)
+  - FacebookLogin (from `https://github.com/facebook/facebook-sdk-swift`)
+  - FDWaveformView
+  - Firebase/Core
+  - OCWaveView
+  - Player
+  - PryntTrimmerView
+  - RealmSwift
+  - Reveal-SDK
+  - SVProgressHUD
+  - SwiftLint
+  - SwiftSiriWaveformView
+  - Texture
+  - "UITextView+Placeholder"
+  - WSTagsField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSAPIGateway
+    - AWSCognito
+    - AWSCognitoAuth
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSS3
+    - BMPlayer
+    - Bolts
+    - Crashlytics
+    - Fabric
+    - FacebookCore
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FDWaveformView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - GoogleToolboxForMac
+    - nanopb
+    - NVActivityIndicatorView
+    - OCWaveView
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Player
+    - PryntTrimmerView
+    - Realm
+    - RealmSwift
+    - Reveal-SDK
+    - SnapKit
+    - SVProgressHUD
+    - SwiftLint
+    - SwiftSiriWaveformView
+    - Texture
+    - "UITextView+Placeholder"
+    - WSTagsField
+
+EXTERNAL SOURCES:
+  CameraManager:
+    :git: https://github.com/savytskyi/CameraManager
+  FacebookLogin:
+    :git: https://github.com/facebook/facebook-sdk-swift
+
+CHECKOUT OPTIONS:
+  CameraManager:
+    :commit: d0b93aa1c9cdf3ed2454dbb990fffa4cad873e9b
+    :git: https://github.com/savytskyi/CameraManager
+  FacebookLogin:
+    :commit: 8c29d512b47c7384ba2d7c65e4eef314d22aa821
+    :git: https://github.com/facebook/facebook-sdk-swift
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: ae494773514af2129d0d5da55c5e5782df13bc27
+  AWSCognito: 26f1263726ddc4c16b2a9876402b4bc5c25199b7
+  AWSCognitoAuth: ab606147f4a32d2206af89d686e2d76a3702a397
+  AWSCognitoIdentityProvider: c532434167c99ec42126447a83c6a2f2ea18f678
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 5da797bc476188fdaf00dec134fa18d84708eca9
+  AWSS3: 7c178c82c2e648559b7075a663335055327dd4f5
+  BMPlayer: 44eebf06eb01450dd14ea74b27d07c5222f0eed1
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CameraManager: 3680841b23453730bb4b2dbed0dd493ccb354c7d
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
+  FacebookLogin: be838b1397ca9499ec5e8a31de1ff344fc3e4f16
+  FBSDKCoreKit: e08ccfcefa7bc1347a07c276dac9bf6c7fe57024
+  FBSDKLoginKit: 99797ac39252fef6f72600b886f6ee60b4b29cab
+  FDWaveformView: 382333698e71680953f115e4c6faeb63a8cfde74
+  Firebase: cc13dfab1038c8b45d7903e01fc690451d6d0b24
+  FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
+  FirebaseCore: b981f47e5254cbcfdeb483355300d743f6fcab2c
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
+  OCWaveView: 4f0f9b293bfc8b91bb9ee95b579a5fa6eca8c02d
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  Player: e45514e9e5fb8ff18f50eb2ba6f84dac9b6a0024
+  PryntTrimmerView: 3af9f84875d347b9a131501b3695abf94b02a7bb
+  Realm: 7d74ad6c5020432f58fe5e1df90bb6d97b2c7fef
+  RealmSwift: b2fa31a09c22e246026766557405505eeaad2b01
+  Reveal-SDK: ccc2b0f8014965ea448b7534a7c2c8da232b75e8
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
+  SwiftSiriWaveformView: baa04ed2089e854af00ea54c38a7700ca43d7ae0
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+  "UITextView+Placeholder": 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  WSTagsField: 3abc2553b94cd5caeb7fe5ba5e4668772714bbe8
+
+PODFILE CHECKSUM: 7694cfd68ed1aa55b41cbeca8c0391292ced0322
+
+COCOAPODS: 1.5.3
